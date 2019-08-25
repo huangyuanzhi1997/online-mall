@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="huang-manager-web">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="huang-manager-service-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/huang-manager-service/huang-manager-service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="huang-manager-mapper-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/huang-manager-mapper/huang-manager-mapper">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="huang-manager-pojo-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/huang-manager-pojo/huang-manager-pojo">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="huang-common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/huang-common/huang-common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="huang-manager-web"/>
+        <property name="java-output-path" value="/huang-manager-web/target/classes"/>
+    </wb-module>
+</project-modules>
